@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: github.repository.connector
+---
+testFramework: junit
+sourceLanguage: java

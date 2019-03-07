@@ -62,10 +62,10 @@ public class GithubControllerTest {
 
         assertEquals("returns proper repo list", 2, jsonResponse.length());
         assertEquals("returns first repo",
-                "{\"owner\":\"owner1\",\"fullName\":\"repo1\",\"description\":\"desc1\",\"language\":\"lang1\",\"url\":\"url1\"}",
+                "{\"owner\":\"owner1\",\"fullName\":\"repo1\",\"description\":\"desc1\",\"language\":\"lang1\",\"type\":\"GITHUB\",\"url\":\"url1\"}",
                 jsonResponse.getString(0));
         assertEquals("returns first repo",
-                "{\"owner\":\"owner2\",\"fullName\":\"repo2\",\"description\":\"desc2\",\"language\":\"lang2\",\"url\":\"url2\"}",
+                "{\"owner\":\"owner2\",\"fullName\":\"repo2\",\"description\":\"desc2\",\"language\":\"lang2\",\"type\":\"GITHUB\",\"url\":\"url2\"}",
                 jsonResponse.getString(1));
     }
 

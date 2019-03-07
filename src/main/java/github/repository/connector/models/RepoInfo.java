@@ -1,6 +1,8 @@
 package github.repository.connector.models;
 
 public class RepoInfo {
+
+    private String type = "GITHUB";
     private String fullName;
     private String owner;
     private String url;
@@ -13,6 +15,14 @@ public class RepoInfo {
         this.url = url;
         this.description = description;
         this.language = language;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getFullName() {

@@ -1,3 +1,7 @@
 micronaut:
     application:
         name: github-repository-connector
+    endpoints:
+        all:
+            enabled: true
+            sensitive: false

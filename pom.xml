@@ -109,6 +109,12 @@
             <version>0.0.20131108.vaadin1</version>
             <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.micronaut/micronaut-management -->
+        <dependency>
+            <groupId>io.micronaut</groupId>
+            <artifactId>micronaut-management</artifactId>
+            <version>1.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -120,6 +126,7 @@
                 <configuration>
                     <to>
                         <image>soticsenge/github:${project.version}</image>
+                        <image>soticsenge/github:latest</image>
                     </to>
                     <container>
                         <environment>
